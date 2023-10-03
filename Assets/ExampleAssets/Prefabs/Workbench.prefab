@@ -454,6 +454,7 @@ GameObject:
   - component: {fileID: 3104944534080870354}
   - component: {fileID: 723962561670174152}
   - component: {fileID: 6359482701087300088}
+  - component: {fileID: 2878502128510516789}
   m_Layer: 0
   m_Name: Safety Hat
   m_TagString: Untagged
@@ -552,6 +553,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1814290fc9d9f4b94dff696a41739c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentCardLabel: {fileID: 0}
+  drawCard:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2878502128510516789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3117216213805114940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1430c506eaaa3234f9102331875b35c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPoints: 0
+  pointsToWin: 0
+  winningLabel: {fileID: 0}
 --- !u!1 &3117221827256685120
 GameObject:
   m_ObjectHideFlags: 0
