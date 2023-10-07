@@ -9,8 +9,14 @@ public class GameObjectWrapper : IGameObject
         this.gameObject = gameObject;
     }
 
-    public string name {
+    public string name
+    {
         get => gameObject.name;
         set => gameObject.name = value;
+    }
+
+    public ITransform transform
+    {
+        get => new TransformWrapper (gameObject.transform);
     }
 }
